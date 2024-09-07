@@ -1,5 +1,5 @@
 import {  Roboto } from 'next/font/google'
-import Nav from './components/Nav';
+import Nav from '../components/Nav';
 import HomeSec from "../my-components/HeroSec"
  
 const roboto = Roboto({ weight:"700" , subsets:["cyrillic"]})
