@@ -1,16 +1,17 @@
-import { Roboto } from 'next/font/google'
+// import { Roboto } from 'next/font/google'
 import Nav from '../my-components/Nav';
 import HomeProfile from "../my-components/HeroSec"
+// import AboutSec from '@/my-components/AboutSec';
 
-const roboto = Roboto({ weight: "700", subsets: ["cyrillic"] })
+// const roboto = Roboto({ weight: "700", subsets: ["cyrillic"] })
 
 export default function Home() {
-  return (<div className={`${roboto.className} bg-slate-900 min-h-screen text-yellow-300 px-3 md:px-20`}>
+  return (<div className={`  bg-slate-900 min-h-screen text-yellow-300 px-3 md:px-20`}>
     {/* bg-[#222831]  */}
     
     <Nav />
   
-    <div className="pt-8 space-y-8">
+    <div className="pt-8 space-y-14">
       {/* This is the small white box (likely a decorative element) */}
       <div className="bg-white p-[3px] max-w-44 rounded-sm"></div>
   
@@ -49,6 +50,9 @@ export default function Home() {
        <div className='bg-slate-950 border-t-2 border-t-gray-700 pt-6'>
         {/* HomeSec Component */}
        <HomeProfile />
+       </div>
+       <div className='mt-12 border'>
+        {/* <AboutSec/> */}
        </div>
     </div>
   </div>
