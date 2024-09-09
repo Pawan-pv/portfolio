@@ -38,7 +38,7 @@ export const CardSpotlight = ({
         "group/spotlight  rounded-md relative bg-black dark:border-neutral-800",
         className
       )}
-      onMouseMove={handleMouseMove}z
+      onMouseMove={handleMouseMove}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
       {...props}
