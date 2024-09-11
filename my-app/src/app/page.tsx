@@ -1,7 +1,7 @@
 
 "use client"
 import { useState } from "react";
-import Nav from "@/compo/Nav"
+import Nav from "../compo/Nav"
 import Herosec from "@/compo/Herosec"
 import React from "react";
 import { BentoGridDemo } from "@/compo/Midsec";
