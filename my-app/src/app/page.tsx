@@ -1,10 +1,10 @@
 
 "use client"
 import { useState } from "react";
-import Nav from "../compo/Nav"
-import Herosec from "../compo/Herosec"
+import Nav from "@/compo/Nav"
+import Herosec from "@/compo/Herosec"
 import React from "react";
-import { BentoGridDemo } from "../compo/Midsec";
+import { BentoGridDemo } from "@/compo/Midsec";
 
 
 export default function Home() {

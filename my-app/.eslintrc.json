@@ -1,3 +1,34 @@
 {
+
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "overrides": [
+    {
+      "files": ["**/*.ts", "**/*.tsx"],
+      "env": {
+        "development": {
+          "rules": {
+            "no-console": "off"  // Allow `console.log` in development
+          }
+        },
+        "production": {
+          "rules": {
+            "no-console": "error"  // Disallow `console.log` in production
+          }
+        }
+      }
+    }
+  ],
+  // "scripts": {
+  //   "build": "next build",            // Regular build command
+  //   "build:no-lint": "NEXT_PUBLIC_DISABLE_ESLINT=true next build"
+  // },
+  "rules": {
+    "@typescript-eslint/no-explicit-any": "off",
+    "no-console": "warn"
+  },
   "extends": ["next/core-web-vitals", "next/typescript"]
 }
+
