@@ -1,0 +1,12 @@
+{
+    "env": {
+      "browser": true,
+      "node": true
+    },
+    "rules": {
+      "no-console": "error", 
+      "@typescript-eslint/no-explicit-any": "off"
+    },
+    "extends": ["next/core-web-vitals", "next/typescript"]
+  }
+  
